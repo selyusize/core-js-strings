@@ -182,14 +182,7 @@ function removeLastOccurrences(str, value) {
  *   sumOfCodes() => 0
  */
 function sumOfCodes(str) {
-  if (!str) return 0;
-
-  let sum = 0;
-  for (let i = 0; i < str.length; i + 1) {
-    sum += str.charCodeAt(i);
-  }
-
-  return sum;
+  return str;
 }
 
 /**
@@ -299,14 +292,7 @@ function containsSubstring(str, substring) {
  *   countVowels('XYZ') => 1
  */
 function countVowels(str) {
-  const vowels = 'aeiouyAEIOUY';
-  let count = 0;
-  for (let i = 0; i < str.length; i + 1) {
-    if (vowels.includes(str[i])) {
-      count += 1;
-    }
-  }
-  return count;
+  return str;
 }
 
 /**
